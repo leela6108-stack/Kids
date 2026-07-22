@@ -1,0 +1,1675 @@
+/* Color Palette & Custom Styles */
+:root {
+    --dark-blue: #0b1c4f; 
+    --light-blue: #0d6efd;
+    --text-color: #333333;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Top Mini Header Styling */
+.top-header {
+    background-color: var-default(--dark-blue, #081a42);
+    background: linear-gradient(90deg, #091a44 0%, #0d3eb8 70%, #0954e7 100%);
+}
+
+.top-header .social-links a {
+    font-size: 14px;
+    transition: opacity 0.3s ease;
+}
+
+.top-header .social-links a:hover {
+    opacity: 0.8;
+}
+
+.text-xs {
+    font-size: 12px !important;
+}
+
+/* Main Navbar Link Styling */
+.navbar-nav .nav-link {
+    color: var(--text-color) !important;
+    font-weight: 500;
+    font-size: 15px;
+    transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover, 
+.navbar-nav .nav-link.active {
+    color: var(--light-blue) !important;
+}
+
+/* Custom Buttons Styling */
+.custom-btn-outline {
+    border-color: #0b1c4f !important;
+    color: #0b1c4f !important;
+    font-weight: 500;
+}
+
+.custom-btn-outline:hover {
+    background-color: #0b1c4f !important;
+    color: #fff !important;
+}
+
+.btn-dark-blue {
+    background-color: #0b2265 !important;
+    font-weight: 500;
+}
+
+.btn-dark-blue:hover {
+    background-color: #071642 !important;
+}
+
+/* Responsive tweaks for mobile view */
+@media (max-width: 991.98px) {
+    .navbar-nav {
+        padding-top: 15px;
+    }
+    .navbar-nav .nav-link {
+        padding: 8px 0;
+    }
+    .d-flex {
+        width: 100%;
+    }
+}
+
+
+/*footer page   */
+
+/* Custom Styles for Profenaa School Footer */
+.school-footer {
+    background-color: #000000; /* Rich Black Background */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+}
+
+/* Footer Headings */
+.footer-heading {
+    font-size: 16px;
+    letter-spacing: 0.5px;
+}
+
+/* Light muted text color matching the image */
+.text-muted {
+    color: #9c9c9c !important;
+}
+
+/* Navigation & Quick Links Styling */
+.footer-links li {
+    margin-bottom: 12px;
+}
+
+.footer-links a {
+    color: #9c9c9c;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+    color: #ffffff;
+}
+
+/* Social Media Icons (Plain text style matching the screenshot) */
+.footer-socials a {
+    font-size: 16px;
+    transition: opacity 0.3s ease;
+}
+
+.footer-socials a:hover {
+    opacity: 0.7;
+}
+
+/* Contact and Address Icons Color & Sizing */
+.footer-contact i, 
+.footer-address i {
+    color: #ffffff !important;
+    font-size: 14px;
+    width: 16px;
+    text-align: center;
+}
+
+.footer-address strong {
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.footer-address span {
+    font-size: 13px;
+    display: inline-block;
+}
+
+/* Bottom Policy Section Hover */
+.bottom-policy-links a:hover {
+    color: #ffffff !important;
+}
+
+/* Responsive adjustments for smaller screens */
+@media (max-width: 991.98px) {
+    .footer-heading {
+        margin-top: 10px;
+    }
+}
+
+/* index page */
+
+/* ==================== UNIQUE HERO SECTION STYLES ==================== */
+.edu-hero-block-section {
+    /* உங்களுடைய உண்மையான Background இமேஜ் லிங்க்கை கீழே மாற்றிக்கொள்ளவும் */
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.45)), 
+                url('/assets/image/image\ 19@2x.png') no-repeat center center/cover;
+    min-height: 75vh;
+    padding: 100px 0;
+    display: flex;
+    align-items: center;
+}
+
+/* Heading Typography */
+.edu-hero-block-main-title {
+    font-size: 2.8rem;
+    line-height: 1.25;
+    font-weight: 700 !important;
+}
+
+/* Specific text highlight inside header */
+.edu-hero-block-highlight {
+    color: #ffc107 !important; /* Yellow text color */
+}
+
+/* Paragraph styling */
+.edu-hero-block-paragraph-text {
+    font-size: 16px;
+    line-height: 1.6;
+    letter-spacing: 0.3px;
+    max-width: 520px;
+}
+
+/* Button Custom Styles */
+.edu-hero-block-action-btn {
+    background-color: #ffcc00 !important;
+    border: none !important;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+.edu-hero-block-action-btn:hover {
+    background-color: #e6b800 !important;
+    transform: translateY(-2px);
+}
+
+/* Responsive adjustments for mobile/tablets */
+@media (max-width: 991.98px) {
+    .edu-hero-block-section {
+        min-height: 60vh;
+        text-align: center;
+        padding: 60px 0;
+    }
+    .edu-hero-block-content-holder {
+        margin: 0 auto;
+    }
+    .edu-hero-block-main-title {
+        font-size: 2rem;
+    }
+    .edu-hero-block-paragraph-text {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+
+/* ==================== KIDDINO ACTIVITIES STYLES ==================== */
+.kiddino-act-section {
+    background-color: #fbf7ec; /* படத்திலுள்ளவாறு மென்மையான க்ரீம் நிறப் பின்புலம் */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.kiddino-act-subtitle {
+    color: #fe6f41; /* ஆரஞ்சு நிற துணைத்தலைப்பு */
+    letter-spacing: 1px;
+}
+
+.kiddino-act-main-title {
+    color: #1d2939; /* அடர் நீல/கருப்பு முதன்மைத் தலைப்பு */
+    font-size: 2.2rem;
+}
+
+/* Card General Design */
+.kiddino-act-card {
+    border-radius: 20px !important;
+    background-color: #ffffff;
+    height: 100%;
+    min-height: 250px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.kiddino-act-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.08) !important;
+}
+
+/* Card Title & Typography */
+.kiddino-act-card-title {
+    color: #1d2939;
+    font-size: 1.15rem;
+    margin-bottom: 12px;
+}
+
+.kiddino-act-card-text {
+    color: #667085;
+    font-size: 13px;
+    line-height: 1.6;
+    margin-bottom: 0;
+}
+
+/* Colorful Glow/Shadow Icon Boxes */
+.kiddino-act-icon-box {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    color: #ffffff;
+}
+
+.kiddino-act-icon-orange {
+    background-color: #ff9f43;
+    box-shadow: 0 8px 20px rgba(255, 159, 67, 0.4);
+}
+
+.kiddino-act-icon-red {
+    background-color: #ee5253;
+    box-shadow: 0 8px 20px rgba(238, 82, 83, 0.4);
+}
+
+.kiddino-act-icon-teal {
+    background-color: #00a8ff;
+    box-shadow: 0 8px 20px rgba(0, 168, 255, 0.4);
+}
+
+.kiddino-act-icon-purple {
+    background-color: #9b5de5;
+    box-shadow: 0 8px 20px rgba(155, 93, 229, 0.4);
+}
+
+/* 
+   Stepped Layout Effect (படிக்கட்டு போன்ற வடிவமைப்பு)
+   பெரிய திரைகளில் (Desktop) மட்டும் கார்டுகள் ஒவ்வொன்றாகக் கீழே இறங்கி வரும் 
+*/
+@media (min-width: 1200px) {
+    .kiddino-act-col-1 { transform: translateY(0px); }
+    .kiddino-act-col-2 { transform: translateY(40px); }
+    .kiddino-act-col-3 { transform: translateY(80px); }
+    .kiddino-act-col-4 { transform: translateY(120px); }
+    
+    /* கார்டுகள் கீழே இறங்குவதால் செக்ஷனின் கீழ் பகுதி மறையாமல் இருக்க கூடுதல் இடைவெளி */
+    .kiddino-act-section {
+        padding-bottom: 160px !important;
+    }
+}
+
+/* Tablet மற்றும் Mobile திரைகளுக்கான சீரமைப்பு */
+@media (max-width: 1199.98px) {
+    .kiddino-act-card {
+        min-height: auto;
+    }
+}
+
+
+/* ==================== KIDDINO CORE VALUES STYLES ==================== */
+.kiddino-val-section {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Left Content Styles */
+.kiddino-val-subtitle {
+    color: #1e56df; /* பிரகாசமான நீல நிற துணைத்தலைப்பு */
+    letter-spacing: 0.8px;
+}
+
+.kiddino-val-main-title {
+    color: #111111;
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.kiddino-val-description {
+    color: #555555;
+    font-size: 15px;
+    line-height: 1.7;
+    max-width: 500px;
+}
+
+/* Custom Button with Shadow */
+.kiddino-val-cta-btn {
+    background-color: #134edf;
+    border: none;
+    font-size: 14px;
+    box-shadow: 0 10px 20px rgba(19, 78, 223, 0.25);
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.kiddino-val-cta-btn:hover {
+    background-color: #0e3eb3;
+    transform: translateY(-2px);
+}
+
+/* Image Cards Styling */
+.kiddino-val-img-card {
+    border-radius: 30px !important; /* படத்திலுள்ளவாறு வளைந்த முனைகள் */
+    /* box-shadow: 0 8px 24px rgba(0, 0, 0, 0.06); */
+    transition: transform 0.3s ease;
+}
+
+.kiddino-val-img-card:hover {
+    transform: scale(1.02);
+}
+
+.kiddino-val-image {
+    width: 80%;
+    height: 280px;
+    /* object-fit: cover; */
+}
+
+/* Gradient Overlay on Images for Text Visibility */
+.kiddino-val-overlay {
+    /* background: linear-gradient(transparent 50%, rgba(0, 0, 0, 0.7) 100%); */
+    padding: 20px;
+}
+
+.kiddino-val-card-title {
+    font-size: 15px;
+    letter-spacing: 0.3px;
+    line-height: 1.4;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+/* 
+   Asymmetric Staggered Layout Effect 
+   வலது பக்கம் இருக்கும் பத்திக் காலத்தை மட்டும் சற்று கீழே இறக்கிக் காட்டும் அமைப்பு
+*/
+@media (min-width: 576px) {
+    .kiddino-val-grid-right-col {
+        margin-top: 45px;
+    }
+}
+
+/* Responsive adjustments for Mobile/Tablets */
+@media (max-width: 991.98px) {
+    .kiddino-val-text-block {
+        text-align: center;
+    }
+    .kiddino-val-description {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .kiddino-val-image {
+        height: 220px;
+    }
+}
+
+
+/* ==================== KIDDINO NURTURING ENVIRONMENT STYLES ==================== */
+.kiddino-nur-purple-block {
+    background-color: #610da1; /* துல்லியமான ஊதா நிற பின்புலம் (Purple Background) */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    overflow: hidden;
+}
+
+/* Right Content Column Styles */
+.kiddino-nur-subtitle {
+    color: #ffffff;
+    opacity: 0.8;
+    letter-spacing: 1.2px;
+}
+
+.kiddino-nur-main-title {
+    color: #ffffff;
+    font-size: 2.3rem;
+    font-weight: 700;
+    line-height: 1.3;
+}
+
+.kiddino-nur-description {
+    color: #ffffff;
+    opacity: 0.85;
+    font-size: 15px;
+    line-height: 1.7;
+    max-width: 500px;
+}
+
+/* Image Wrapper and Alignment Layout */
+.kiddino-nur-image-wrapper-box {
+    position: relative;
+    width: 100%;
+    height: 400px;
+}
+
+.kiddino-nur-img-container {
+    width: 250px;
+    height: 250px;
+    border-radius: 40px !important; /* படத்திலுள்ளவாறு வளைந்த முனைகள் */
+    overflow: visible; /* மிதக்கும் பேட்ஜ்கள் வெளியே தெரிய அனுமதிக்கும் */
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+    position: absolute;
+}
+
+.kiddino-nur-main-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 40px !important;
+}
+
+/* Overlapping Staggered Positions (ஒன்றன் பின் ஒன்றாக அமையும் விதம்) */
+.kiddino-nur-img-top {
+    top: 0;
+    right: 15%;
+    z-index: 2;
+}
+
+.kiddino-nur-img-bottom {
+    bottom: 0;
+    left: 15%;
+    z-index: 1;
+}
+
+/* --- Floating Badges General Styling --- */
+.kiddino-nur-badge {
+    background-color: #ffffff;
+    border-radius: 20px;
+    padding: 12px 20px;
+}
+
+/* 1. Safety Badge (top left of upper image) */
+.kiddino-nur-safety-badge {
+    left: -80px;
+    top: 50px;
+    z-index: 3;
+    animation: nur-bounce-slow 4s ease-in-out infinite alternate;
+}
+
+.kiddino-nur-icon-circle-bg {
+    background-color: #1a73e8;
+    color: #ffffff;
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+}
+
+.kiddino-nur-badge-text-bold {
+    color: #111111;
+    font-weight: 700;
+    font-size: 13px;
+}
+
+/* 2. Courses Badge (bottom right of lower image) */
+.kiddino-nur-courses-badge {
+    right: -60px;
+    bottom: 50px;
+    z-index: 3;
+    animation: nur-bounce-slow 4s ease-in-out infinite alternate-reverse;
+}
+
+.kiddino-nur-badge-title-bold {
+    color: #4b0dba; /* Dark purple/blue color */
+    font-weight: 800;
+    font-size: 15px;
+    line-height: 1;
+    margin-bottom: 3px;
+}
+
+.kiddino-nur-badge-sub {
+    color: #666666;
+    font-size: 11px;
+}
+
+/* மென்மையான மிதக்கும் அனிமேஷன் (Floating Animation) */
+@keyframes nur-bounce-slow {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(-8px);
+    }
+}
+
+/* Tablet மற்றும் Mobile திரைகளுக்கான சீரமைப்பு */
+@media (max-width: 991.98px) {
+    .kiddino-nur-purple-block {
+        text-align: center;
+    }
+    .kiddino-nur-description {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .kiddino-nur-image-wrapper-box {
+        margin-bottom: 2rem;
+        height: 340px;
+    }
+    .kiddino-nur-img-container {
+        width: 190px;
+        height: 190px;
+    }
+    .kiddino-nur-img-top {
+        right: 5%;
+    }
+    .kiddino-nur-img-bottom {
+        left: 5%;
+    }
+    .kiddino-nur-safety-badge {
+        left: -30px;
+        top: 20px;
+        padding: 8px 14px;
+    }
+    .kiddino-nur-courses-badge {
+        right: -30px;
+        bottom: 20px;
+        padding: 8px 14px;
+    }
+}
+
+
+
+/* ==================== KIDDINO PHOTO GALLERY STYLES ==================== */
+.kiddino-gal-section {
+    background-color: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    overflow-x: hidden;
+}
+
+/* Titles Design */
+.kiddino-gal-subtitle {
+    color: #1e56df; /* பிரகாசமான நீல நிறம் */
+    letter-spacing: 0.8px;
+}
+
+.kiddino-gal-main-title {
+    color: #111111;
+    font-size: 2.3rem;
+    font-weight: 700;
+    line-height: 1.3;
+}
+
+/* Image Thumbnails with Smooth Rounded Corners */
+.kiddino-gal-thumb {
+    width: 100%;
+    object-fit: cover;
+    aspect-ratio: 4 / 5; /* செங்குத்து (Portrait) வடிவம் அசல் படத்தில் உள்ளவாறு */
+    border-radius: 24px !important; /* வளைந்த அழகான முனைகள் */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+    cursor: pointer;
+}
+
+/* Soft Hover effect */
+.kiddino-gal-thumb:hover {
+    transform: scale(1.03);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12);
+}
+
+/* Desktop மற்றும் பெரிய திரைகளுக்கான துல்லியமான வரிசை சீரமைப்பு */
+@media (min-width: 1200px) {
+    .kiddino-gal-grid-wrapper {
+        max-width: 1140px;
+        margin: 0 auto;
+    }
+}
+
+/* Mobile திரைகளில் படங்கள் நெருக்கமாகத் தெரியாமல் இருக்க எளிய திருத்தம் */
+@media (max-width: 767.98px) {
+    .kiddino-gal-thumb {
+        border-radius: 16px !important;
+        aspect-ratio: 1 / 1; /* மொபைலில் சதுரமாக மாறும் */
+    }
+    .offset-xl-1 {
+        margin-left: 0 !important;
+    }
+}
+
+
+
+/* ==================== KIDDINO TESTIMONIALS STYLES ==================== */
+.kiddino-testi-section {
+    background-color: #0b6c8f; /* படத்திலுள்ளவாறு அழகான டார்க் ப்ளூ-கிரீன் பின்புலம் */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    overflow: hidden;
+}
+
+/* Titles Styling */
+.kiddino-testi-subtitle {
+    color: #a3d8f4;
+    letter-spacing: 1px;
+    font-size: 13px;
+    opacity: 0.85;
+}
+
+.kiddino-testi-main-title {
+    font-size: 2.3rem;
+    line-height: 1.3;
+}
+
+/* Video Cards General Styles */
+.kiddino-testi-video-card {
+    border-radius: 24px !important;
+    background: transparent;
+}
+
+.kiddino-testi-img {
+    width: 100%;
+    object-fit: cover;
+    aspect-ratio: 1 / 1; /* சதுர வடிவம் */
+}
+
+/* Dark layer over images for button visibility */
+.kiddino-testi-overlay {
+    background: rgba(0, 0, 0, 0.25);
+    transition: background 0.3s ease;
+}
+
+.kiddino-testi-video-card:hover .kiddino-testi-overlay {
+    background: rgba(0, 0, 0, 0.4);
+}
+
+/* Asymmetric Sizes (நடு கார்டு மட்டும் பெரியதாகத் தெரிய) */
+@media (min-width: 768px) {
+    .kiddino-testi-featured-card .kiddino-testi-img {
+        aspect-ratio: 1 / 1.05; /* சற்று நீளமாக */
+        transform: scale(1.05);
+    }
+    .kiddino-testi-side-card {
+        opacity: 0.85;
+        transform: scale(0.92);
+    }
+}
+
+/* Circular Play Button Design */
+.kiddino-testi-play-btn {
+    border: none;
+    background-color: #ffffff;
+    color: #0b6c8f;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+.kiddino-testi-play-btn i {
+    margin-left: 2px; /* பிளே ஐகானை சரியாக நடுவில் வைக்க */
+}
+
+.sm-play-btn {
+    width: 42px;
+    height: 42px;
+    font-size: 14px;
+}
+
+.lg-play-btn {
+    width: 55px;
+    height: 55px;
+    font-size: 18px;
+}
+
+.kiddino-testi-play-btn:hover {
+    transform: scale(1.1);
+    background-color: #f8f9fa;
+}
+
+/* Carousel Indicators (Dots) */
+.kiddino-testi-dot {
+    width: 7px;
+    height: 7px;
+    background-color: rgba(255, 255, 255, 0.4);
+    border-radius: 50%;
+    display: inline-block;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.kiddino-testi-dot.active {
+    background-color: #ffffff;
+    width: 18px; /* நீளமாக மாறும் ஆக்டிவ் டாட் */
+    border-radius: 10px;
+}
+
+/* Floating Paper Plane Vector (Decorative) */
+.kiddino-testi-plane-vector {
+    position: absolute;
+    right: 6%;
+    top: 15%;
+    color: #ffffff;
+    font-size: 55px;
+    opacity: 0.8;
+    transform: rotate(15deg);
+}
+
+/* Responsive adjustments */
+@media (max-width: 767.98px) {
+    .kiddino-testi-main-title {
+        font-size: 1.8rem;
+    }
+    .kiddino-testi-video-card {
+        border-radius: 18px !important;
+    }
+}
+
+
+
+/* ==================== KIDDINO BOOTCAMP & REGISTER STYLES ==================== */
+.kiddino-main-wrapper {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* --- TOP BANNER IMAGE STYLING --- */
+.kiddino-boot-full-banner-img {
+    width: 100%;
+    max-width: 1140px;
+    height: auto;
+    border-radius: 40px !important; /* இமேஜ் முனைகள் வளைந்து தெரிய */
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+}
+
+/* --- BOTTOM SECTION: REGISTRATION FORM --- */
+.kiddino-reg-left-wrapper {
+    padding: 20px;
+}
+
+.kiddino-reg-quote-vector {
+    position: absolute;
+    top: -40px;
+    left: 0;
+    font-size: 180px;
+    font-weight: 900;
+    color: #f2e6ff;
+    line-height: 1;
+    z-index: 0;
+    user-select: none;
+}
+
+.kiddino-reg-kids-img {
+    max-height: 420px;
+    object-fit: contain;
+}
+
+.kiddino-reg-floating-badge {
+    top: 30%;
+    right: 5%;
+}
+
+.kiddino-reg-badge-icon {
+    background-color: #00cc66;
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    font-size: 12px;
+}
+
+.kiddino-reg-form-card {
+    background-color: #8c46ff;
+    border-radius: 30px !important;
+    box-shadow: 0 15px 35px rgba(140, 70, 255, 0.2);
+}
+
+.kiddino-reg-form-title {
+    font-size: 1.6rem;
+    letter-spacing: 0.5px;
+}
+
+.kiddino-reg-input, 
+.kiddino-reg-textarea {
+    border: none !important;
+    border-radius: 10px !important;
+    padding: 12px 15px !important;
+    font-size: 14px !important;
+    background-color: #ffffff !important;
+    color: #333333 !important;
+}
+
+.kiddino-reg-input::placeholder, 
+.kiddino-reg-textarea::placeholder {
+    color: #aaaaaa;
+}
+
+.kiddino-reg-submit-btn {
+    background: linear-gradient(to right, #ffe100, #ffcc00);
+    border: none;
+    color: #000000;
+    border-radius: 12px;
+    font-size: 15px;
+    transition: opacity 0.2s ease, transform 0.2s ease;
+}
+
+.kiddino-reg-submit-btn:hover {
+    opacity: 0.95;
+    color: #000000;
+    transform: translateY(-1px);
+}
+
+@media (max-width: 991.98px) {
+    .kiddino-boot-full-banner-img {
+        border-radius: 20px !important;
+    }
+    .kiddino-reg-floating-badge {
+        top: 10%;
+        right: 10%;
+    }
+    .kiddino-reg-form-card {
+        border-radius: 20px !important;
+        padding: 30px 20px !important;
+    }
+}
+
+/* ==================== KIDDINO LATEST BLOG STYLES ==================== */
+.kiddino-blog-section {
+    background-color: #e9ecef; /* படத்தின் பின்புறம் உள்ள சாம்பல் நிறம் */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.kiddino-blog-subtitle {
+    color: #1e56df; /* நீல நிற சப்டைட்டில் */
+    font-size: 14px;
+    letter-spacing: 0.8px;
+}
+
+.kiddino-blog-main-title {
+    color: #1a1a1a;
+    font-size: 2.2rem;
+}
+
+/* Category styling */
+.kiddino-blog-category {
+    color: #333333;
+    font-size: 16px;
+}
+
+.kiddino-blog-line {
+    color: #888888;
+    font-weight: 300;
+}
+
+.kiddino-blog-see-all {
+    color: #222222;
+    transition: color 0.2s ease;
+}
+
+.kiddino-blog-see-all:hover {
+    color: #1e56df;
+}
+
+/* Card custom styles */
+.kiddino-blog-card {
+    border-radius: 16px !important;
+    background-color: #ffffff;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.kiddino-blog-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08) !important;
+}
+
+.kiddino-blog-img {
+    border-radius: 12px !important;
+    aspect-ratio: 4 / 3;
+    object-fit: cover;
+}
+
+.kiddino-blog-card-title {
+    font-size: 13.5px;
+    color: #222222;
+    line-height: 1.4;
+    display: -webkit-box;
+    -webkit-line-clamp: 2; /* தலைப்பு 2 வரிகளுக்கு மேல் போனால் மறையும் */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+/* Author block styling */
+.kiddino-blog-author-img {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.kiddino-blog-author-name {
+    font-size: 11px;
+    color: #333333;
+}
+
+.kiddino-blog-date, 
+.kiddino-blog-read {
+    font-size: 10px;
+    color: #888888;
+}
+
+.kiddino-blog-dot {
+    color: #bbbbbb;
+    font-size: 10px;
+}
+
+
+
+/* ==================== KIDDINO QUICK LINK STYLES ==================== */
+.kiddino-qlink-section {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.kiddino-qlink-subtitle {
+    color: #1e56df; /* படத்தில் உள்ளவாறு பிரகாசமான நீல நிறம் */
+    font-size: 14px;
+    letter-spacing: 0.8px;
+}
+
+.kiddino-qlink-main-title {
+    color: #1a1a1a;
+    font-size: 2.5rem;
+}
+
+/* Light blue background container box */
+.kiddino-qlink-box {
+    background-color: #e8f1fc; /* மிக மெல்லிய நீல நிற பேக்ரவுண்ட் */
+    border-radius: 12px !important;
+    height: 100%;
+}
+
+/* List Item Line Separation */
+.kiddino-qlink-item {
+    border-bottom: 1.5px solid #222222; /* லிங்க்குகளுக்கு கீழே இருக்கும் அண்டர்லைன் */
+    padding-bottom: 12px;
+    margin-bottom: 20px;
+}
+
+/* Anchor Links Customization */
+.kiddino-qlink-anchor {
+    color: #111111;
+    text-decoration: none;
+    font-size: 15px;
+    line-height: 1.5;
+    display: block;
+    transition: color 0.2s ease, padding-left 0.2s ease;
+}
+
+/* Hover Effect */
+.kiddino-qlink-anchor:hover {
+    color: #1e56df;
+    padding-left: 4px; /* லேசாக நகரும் எஃபெக்ட் */
+}
+
+/* Responsive fixes for mobile view */
+@media (max-width: 767.98px) {
+    .kiddino-qlink-main-title {
+        font-size: 2rem;
+    }
+    .kiddino-qlink-box {
+        padding: 25px 20px !important;
+    }
+    .kiddino-qlink-anchor {
+        font-size: 14px;
+    }
+}
+
+
+/* gellery page style  */
+
+/* ==================== KIDDINO BREADCRUMB BANNER STYLES ==================== */
+.kiddino-bread-section {
+    background-color: #102a43; /* மெயின் டார்க் ப்ளூ பேக்ரவுண்ட் */
+    min-height: 250px; /* பேனரின் உயரம் */
+    padding: 60px 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Main Title Design */
+.kiddino-bread-title {
+    font-size: 2.8rem;
+    letter-spacing: 0.5px;
+}
+
+/* Breadcrumb Styling */
+.kiddino-bread-nav .breadcrumb-item + .breadcrumb-item::before {
+    content: "/";
+    color: rgba(255, 255, 255, 0.5); /* ஸ்லாஷ் குறியீட்டின் நிறம் */
+    padding: 0 8px;
+}
+
+.kiddino-bread-link {
+    color: rgba(255, 255, 255, 0.7);
+    text-decoration: none;
+    font-size: 14px;
+    transition: color 0.2s ease;
+}
+
+.kiddino-bread-link:hover {
+    color: #ffffff;
+}
+
+.kiddino-bread-current {
+    color: rgba(255, 255, 255, 0.5) !important;
+    font-size: 14px;
+}
+
+/* --- Background Wave Shapes (CSS Shapes) --- */
+.kiddino-bread-shape {
+    position: absolute;
+    background-color: #0b1d33; /* இன்னும் ஆழமான இருண்ட வடிவம் */
+    border-radius: 50%;
+    z-index: 1;
+    pointer-events: none;
+}
+
+/* இடது பக்க அலை வடிவம் */
+.kiddino-bread-shape-left {
+    width: 450px;
+    height: 450px;
+    top: -100px;
+    left: -150px;
+    border-radius: 40% 60% 60% 40% / 40% 50% 50% 60%;
+    opacity: 0.8;
+}
+
+/* வலது பக்க அலை வடிவம் */
+.kiddino-bread-shape-right {
+    width: 500px;
+    height: 500px;
+    bottom: -200px;
+    right: -100px;
+    background-color: #183d66; /* சற்று வெளிச்சமான நீல வடிவம் */
+    border-radius: 60% 40% 40% 60% / 50% 40% 60% 50%;
+    opacity: 0.4;
+}
+
+/* --- RESPONSIVE RESPONSIVE CODE (மொபைல் திரைகளுக்கான திருத்தம்) --- */
+@media (max-width: 767.98px) {
+    .kiddino-bread-section {
+        min-height: 180px;
+        padding: 40px 0;
+    }
+    .kiddino-bread-title {
+        font-size: 2.2rem;
+    }
+    .kiddino-bread-shape-left {
+        width: 250px;
+        height: 250px;
+        left: -80px;
+    }
+    .kiddino-bread-shape-right {
+        width: 280px;
+        height: 280px;
+        right: -60px;
+    }
+}
+
+
+/* ==================== PROFENAA VIBRANCY STYLES ==================== */
+.profenaa-vibe-section {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Left Content Design */
+.profenaa-vibe-tag {
+    color: #1e56df; /* பிரகாசமான நீல நிற டேக் */
+    letter-spacing: 0.8px;
+    font-size: 13.5px;
+}
+
+.profenaa-vibe-title {
+    color: #111111;
+    font-size: 2.5rem;
+    line-height: 1.25;
+}
+
+.profenaa-vibe-desc {
+    color: #555555;
+    font-size: 15px;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+/* Custom Blue CTA Button with Smooth Hover Blur */
+.profenaa-vibe-btn {
+    background-color: #0d4cdb;
+    color: #ffffff !important;
+    font-size: 14px;
+    letter-spacing: 0.2px;
+    border: none;
+    box-shadow: 0 8px 20px rgba(13, 76, 219, 0.25) !important;
+    transition: all 0.3s ease;
+}
+
+.profenaa-vibe-btn:hover {
+    background-color: #0a3bb1;
+    transform: translateY(-2px);
+    box-shadow: 0 12px 24px rgba(13, 76, 219, 0.35) !important;
+}
+
+/* Right Side Image Block Style */
+.profenaa-vibe-img-wrapper {
+    border-radius: 28px !important; /* படத்தில் உள்ளவாறு வளைந்த பெரிய முனைகள் */
+    aspect-ratio: 4 / 3;
+}
+
+.profenaa-vibe-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Bottom Dark Shadow Overlay */
+.profenaa-vibe-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* கீழே மட்டும் நிழல் விழும் கிரேடியன்ட் எஃபெக்ட் */
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.75) 0%, rgba(0, 0, 0, 0.2) 40%, rgba(0, 0, 0, 0) 100%);
+}
+
+.profenaa-vibe-school-name {
+    font-size: 18px;
+    letter-spacing: 0.3px;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+/* ==================== RESPONSIVE RESPONSIVE CODE ==================== */
+@media (max-width: 991.98px) {
+    .profenaa-vibe-title {
+        font-size: 2rem;
+        margin-bottom: 15px !important;
+    }
+    .profenaa-vibe-desc {
+        font-size: 14.5px;
+    }
+    .profenaa-vibe-img-wrapper {
+        border-radius: 20px !important;
+        margin-bottom: 10px;
+        aspect-ratio: 16 / 10; /* மொபைலில் இன்னும் கச்சிதமாகப் பொருந்த */
+    }
+    .profenaa-vibe-school-name {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .profenaa-vibe-title {
+        font-size: 1.75rem;
+    }
+    .profenaa-vibe-btn {
+        width: 100%; /* மொபைல் ஸ்கிரீனில் பட்டன் முழு அகலத்திற்கு மாறும் */
+        text-center: center;
+    }
+}
+
+
+/* ==================== NEW ALIGNMENT FIXES (ADD TO BOTTOM OF CSS) ==================== */
+
+/* ==================== KIDDINO PHOTO GALLERY STYLES ==================== */
+.kiddino-gal-section {
+    background-color: #004d4f; /* படத்தில் உள்ளவாறு அழகான டார்க் டீல் பேக்ரவுண்ட் */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Header Text Styles */
+.kiddino-gal-tag {
+    color: #a3d8d9;
+    letter-spacing: 1px;
+    font-size: 13px;
+    opacity: 0.85;
+}
+
+.kiddino-gal-title {
+    font-size: 2.2rem;
+    line-height: 1.3;
+    max-width: 550px;
+}
+
+/* Filter Buttons Custom Design */
+.kiddino-gal-btn {
+    background-color: transparent;
+    color: #ffffff;
+    border: 1px solid rgba(255, 255, 255, 0.3) !important;
+    border-radius: 8px !important;
+    font-size: 13px;
+    font-weight: 500;
+    text-transform: capitalize;
+    padding: 8px 18px !important;
+    transition: all 0.3s ease;
+}
+
+.kiddino-gal-btn:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #ffffff;
+}
+
+/* Active Filter Button (ALL) */
+.kiddino-gal-active {
+    background-color: #ffffff !important;
+    color: #004d4f !important;
+    border-color: #ffffff !important;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+/* Gallery Card Design */
+.kiddino-gal-card {
+    border-radius: 20px !important; /* வளைந்த முனைகள் */
+    background: transparent;
+    transition: transform 0.3s ease;
+}
+
+.kiddino-gal-card:hover {
+    transform: scale(1.02); /* லேசான ஹூவர் எஃபெக்ட் */
+}
+
+.kiddino-gal-img {
+    width: 100%;
+    object-fit: cover;
+}
+
+/* முதல் வரிசை படங்களின் உயரம் (Square shape aspect ratio) */
+.kiddino-gal-img-sm {
+    aspect-ratio: 1 / 1; 
+}
+
+/* இரண்டாவது வரிசை பெரிய படங்களின் உயரம் */
+.kiddino-gal-img-lg {
+    aspect-ratio: 16 / 10;
+}
+
+/* ==================== RESPONSIVE RESPONSIVE CODE ==================== */
+@media (max-width: 1199.98px) {
+    .kiddino-gal-img-sm {
+        aspect-ratio: 4 / 3; /* டேப்லெட் மற்றும் சிறிய திரைகளில் படம் சரியாகத் தெரிய */
+    }
+}
+
+@media (max-width: 991.98px) {
+    .kiddino-gal-title {
+        font-size: 1.8rem;
+        max-width: 100%;
+    }
+    .kiddino-gal-filters {
+        width: 100%;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .kiddino-gal-title {
+        font-size: 1.5rem;
+    }
+    .kiddino-gal-btn {
+        font-size: 12px;
+        padding: 6px 14px !important;
+    }
+    .kiddino-gal-card {
+        border-radius: 14px !important;
+    }
+}
+
+
+
+/* about us page style  */
+
+/* ==================== PROFENAA ABOUT US STYLES ==================== */
+.profenaa-about-section {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Left side main image container styling */
+.profenaa-about-img-wrapper {
+    border-radius: 20px !important; /* படத்தில் உள்ளவாறு வளைந்த இமேஜ் ஓரங்கள் */
+    overflow: visible; /* பேட்ஜ் வெளியே நீட்டித் தெரிய இது அவசியம் */
+    width: 90%;
+}
+
+.profenaa-about-main-img {
+    border-radius: 20px !important;
+    width: 100%;
+    object-fit: cover;
+    aspect-ratio: 1 / 1; /* சதுர வடிவம் */
+}
+
+/* Floating Outstanding Instructors Badge Box */
+.profenaa-about-badge {
+    position: absolute;
+    right: -40px;
+    bottom: 80px;
+    width: 130px;
+    border-radius: 16px !important;
+    z-index: 5;
+    border: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.profenaa-about-badge-icon {
+    width: 36px;
+    height: 36px;
+    background-color: #fff2eb;
+    border-radius: 50%;
+}
+
+.profenaa-about-badge-title {
+    color: #ff7e40; /* ஆரஞ்சு நிறத் தலைப்பு */
+    font-size: 13px;
+    line-height: 1.2;
+}
+
+.profenaa-about-badge-subtitle {
+    color: #666666;
+    font-size: 11px;
+}
+
+/* Avatar stack design */
+.profenaa-about-avatars img {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    border: 1.5px solid #ffffff;
+    margin-left: -6px;
+    object-fit: cover;
+}
+.profenaa-about-avatars img:first-child {
+    margin-left: 0;
+}
+
+/* Right Side Content Styling */
+.profenaa-about-tag {
+    color: #1e56df; /* பிரகாசமான நீல நிற டேக் */
+    letter-spacing: 0.8px;
+    font-size: 13.5px;
+}
+
+.profenaa-about-title {
+    color: #111111;
+    font-size: 2.5rem;
+    line-height: 1.25;
+}
+
+.profenaa-about-desc {
+    color: #666666;
+    font-size: 15px;
+    line-height: 1.6;
+}
+
+/* Custom Blue Call-To-Action Button */
+.profenaa-about-btn {
+    background-color: #0d4cdb;
+    color: #ffffff !important;
+    font-size: 14px;
+    letter-spacing: 0.2px;
+    border: none;
+    box-shadow: 0 8px 20px rgba(13, 76, 219, 0.25) !important;
+    transition: all 0.3s ease;
+}
+
+.profenaa-about-btn:hover {
+    background-color: #0a3bb1;
+    transform: translateY(-2px);
+    box-shadow: 0 12px 24px rgba(13, 76, 219, 0.35) !important;
+}
+
+/* ==================== RESPONSIVE RESPONSIVE CODE ==================== */
+@media (max-width: 991.98px) {
+    .profenaa-about-img-wrapper {
+        width: 100%;
+        max-width: 450px;
+        margin: 0 auto 40px auto;
+    }
+    .profenaa-about-badge {
+        right: 10px;
+        bottom: 30px;
+    }
+    .profenaa-about-title {
+        font-size: 2rem;
+        text-align: center;
+    }
+    .profenaa-about-tag {
+        text-align: center;
+    }
+    .profenaa-about-desc {
+        text-align: center;
+        font-size: 14.5px;
+    }
+    .profenaa-about-content {
+        text-align: center;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .profenaa-about-title {
+        font-size: 1.75rem;
+    }
+    .profenaa-about-btn {
+        width: 100%; /* மொபைலில் பட்டன் முழு அகலத்திற்கு மாறும் */
+    }
+}
+
+/* ==================== PROFENAA TEACHING APPROACH STYLES ==================== */
+.profenaa-approach-section {
+    background-color: #fef8e7; /* படத்தில் உள்ளவாறு அழகான சாஃப்ட் க்ரீம் பேக்ரவுண்ட் */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Header Section */
+.profenaa-approach-tag {
+    color: #1e56df; /* பிரகாசமான நீல நிற டேக் */
+    letter-spacing: 1.5px;
+    font-size: 14px;
+}
+
+.profenaa-approach-title {
+    color: #1c2434;
+    font-size: 2.5rem;
+    letter-spacing: -0.5px;
+}
+
+/* Circular Image Frame Styling */
+.profenaa-approach-img-circle {
+    width: 260px;
+    height: 260px;
+    border-radius: 50% !important; /* துல்லியமான வட்ட வடிவம் */
+    overflow: hidden;
+    background-color: #ffffff;
+    transition: transform 0.3s ease;
+}
+
+.profenaa-approach-img-circle img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Card Hover effect */
+.profenaa-approach-card:hover .profenaa-approach-img-circle {
+    transform: scale(1.03);
+}
+
+/* Custom Orange Buttons Styling */
+.profenaa-approach-btn {
+    background-color: #f26522 !important; /* படத்தில் உள்ளவாறு பிரகாசமான ஆரஞ்சு நிறம் */
+    color: #ffffff !important;
+    font-size: 15px;
+    border: none;
+    width: 200px;
+    letter-spacing: 0.2px;
+    box-shadow: 0 8px 24px rgba(242, 101, 34, 0.35) !important;
+    transition: all 0.3s ease;
+}
+
+.profenaa-approach-btn:hover {
+    background-color: #d94f12 !important;
+    transform: translateY(-2px);
+    box-shadow: 0 12px 28px rgba(242, 101, 34, 0.45) !important;
+}
+
+/* Left side decorative design absolute properties */
+.profenaa-approach-rocket-graphic {
+    position: absolute;
+    left: 20px;
+    top: 40px;
+    z-index: 1;
+    opacity: 0.8;
+}
+
+/* ==================== RESPONSIVE RESPONSIVE CODE ==================== */
+@media (max-width: 991.98px) {
+    .profenaa-approach-title {
+        font-size: 2rem;
+    }
+    .profenaa-approach-img-circle {
+        width: 220px;
+        height: 220px;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .profenaa-approach-title {
+        font-size: 1.75rem;
+    }
+    .profenaa-approach-img-circle {
+        width: 200px;
+        height: 200px;
+    }
+    .profenaa-approach-btn {
+        width: 180px;
+        font-size: 14px;
+        padding: 8px 20px !important;
+    }
+}
+
+
+/* contact us page style  */
+
+/* ==================== PROFENAA CONTACT & MAP STYLES ==================== */
+.profenaa-contact-section {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Icons Design styling */
+.profenaa-contact-icon-box {
+    width: 42px;
+    height: 42px;
+    background-color: #0d4cdb; /* டார்க் ப்ளூ நிற வட்டம் */
+    color: #ffffff;
+    border-radius: 50% !important;
+}
+
+.profenaa-contact-main-title {
+    color: #111111;
+    font-size: 2.5rem;
+}
+
+/* Form Container Box Styling */
+.profenaa-contact-form-bg {
+    background-color: #ecf3fe; /* சாஃப்ட் ப்ளூ கிரேடியண்ட் பின்னணி */
+    border-radius: 24px !important;
+    overflow: visible;
+}
+
+/* Floating Kid Image Position */
+.profenaa-contact-kid-img {
+    position: absolute;
+    left: -60px;
+    bottom: 0;
+    height: 100%;
+    width: auto;
+    object-fit: contain;
+    z-index: 1;
+}
+
+/* White Form Card */
+.profenaa-contact-form-card {
+    width: 100%;
+    max-width: 440px;
+    border-radius: 16px !important;
+}
+
+/* Custom Input Fields */
+.profenaa-contact-input {
+    background-color: #f8fafc !important;
+    border: 1px solid #e2e8f0 !important;
+    font-size: 14px;
+    padding: 10px 14px !important;
+    color: #333333 !important;
+    border-radius: 8px !important;
+}
+
+.profenaa-contact-input:focus {
+    border-color: #0d4cdb !important;
+    box-shadow: 0 0 0 3px rgba(13, 76, 219, 0.1) !important;
+}
+
+.profenaa-contact-input::placeholder {
+    color: #a0aec0;
+    font-size: 13px;
+}
+
+/* Form Submit Button */
+.profenaa-contact-submit-btn {
+    background-color: #007bff !important; /* பிரகாசமான நீல நிற பட்டன் */
+    border: none !important;
+    border-radius: 8px !important;
+    font-size: 15px;
+    box-shadow: 0 4px 12px rgba(0, 123, 255, 0.2) !important;
+    transition: all 0.3s ease;
+}
+
+.profenaa-contact-submit-btn:hover {
+    background-color: #0056b3 !important;
+    transform: translateY(-1px);
+}
+
+/* Google Map Container with Rounded Corners */
+.profenaa-contact-map-wrapper {
+    border-radius: 24px !important; /* படத்தில் உள்ளது போல் வளைந்த மேப் */
+    border: 1px solid rgba(0,0,0,0.05);
+}
+
+.profenaa-contact-map-wrapper iframe {
+    display: block;
+}
+
+/* ==================== RESPONSIVE CODE ==================== */
+@media (max-width: 1199.98px) {
+    .profenaa-contact-kid-img {
+        left: -90px;
+    }
+    .profenaa-contact-form-card {
+        max-width: 380px;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .profenaa-contact-main-title {
+        font-size: 2rem;
+    }
+    .profenaa-contact-form-bg {
+        justify-content: center;
+        padding: 30px !important;
+    }
+    .profenaa-contact-form-card {
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .profenaa-contact-main-title {
+        font-size: 1.75rem;
+    }
+    .profenaa-contact-map-wrapper iframe {
+        height: 300px;
+    }
+}
+
+
+/* play group page style */
